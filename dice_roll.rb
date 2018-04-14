@@ -4,7 +4,7 @@
 
 def roll
   # code goes here
-  die = [1..6]
+  die = 1..6.to_l
   # 1 + rand(6)
   die[rand(6)]
 end
